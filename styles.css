@@ -1,0 +1,231 @@
+
+
+/*UNIVERSAL*/
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black; 
+}
+
+
+
+/*HEADER SECTION*/
+
+.main-headerdiv{
+  padding: 28px 30px;
+  margin: 0;
+  background-color: black;
+}
+
+h1{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.kopikohead{
+  text-decoration: none;
+  color: #b7b7b7;
+  font-family: "Playfair Display",serif;
+  font-size: 46PX;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  transition: color 0.5s ease;
+}
+
+.kopikohead:hover{
+  color: rgb(186, 56, 29);
+}
+
+.tagline{
+  color: #b7b7b7;
+  font-family: "Open Sans",sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.titlediv{
+  width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.taglinediv{
+  width: 530px;
+  margin: auto;
+}
+
+.navigationmenu{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.navigationmenu ul{
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.navigationmenu a{
+  color: #b7b7b7;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  transition: color 0.5s ease;
+  font-family:"Open Sans", sans-serif;
+}
+
+.navigationmenu a:hover{
+  color: rgb(186, 56, 29);
+}
+
+.navigationmenu a.active{
+  color: rgb(186, 56, 29);
+  border-top: 1px solid rgb(255, 0, 0);
+}
+
+/*HEADER SECTION*/
+
+
+
+/*MAIN SECTION*/
+
+.mainimage1{
+  background-image: url("./images/Kopikkoimg.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  margin-bottom: 150px;
+  margin-top: 11px;
+}
+
+.p1{
+  margin-top: 180px;
+  font-size: 22px;
+  margin-left: 180px;
+  margin-right: 180px;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #b7b7b7; 
+}
+
+.p2{
+   font-size: 22px;
+   letter-spacing: 1px;
+   margin-top: 50px;
+   color: #b7b7b7;
+}
+
+.p1div{
+  
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  text-indent: -180px; 
+}
+
+.p2div{
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+/*SUB SECTION*/
+
+.subimage{
+  background-image: url(images/Kopiko2.webp);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  margin: 50px 280px 40px;
+}
+
+
+
+/*ICONS SECTION*/
+
+.social-icons {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  gap: 60px;                
+  height: 55vh;            
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 25px;  
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a.facebook { 
+  color: #1877F2;
+} 
+
+.social-icons a.instagram { 
+  color: #E4405F; } 
+
+.social-icons a.linkedin { color: #0077B5; 
+}  
+
+.social-icons a.youtube {
+   color: #FF0000; 
+} 
+
+
+
+/*FOOTER SECTION*/
+
+.footer{
+  font-size: 10px;
+  color: #b7b7b7;
+}
+
+.footer {
+  font-size: 13px;
+  color: grey;
+  transition: color 0.5s ease;
+  font-family:"Open Sans", sans-serif;
+}
+
+.footer-anchor{
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  font-family:"Open Sans", sans-serif;
+  transition: color 0.5s ease;
+}
+
+.footer a:hover{
+  color: rgb(186, 56, 29);
+  text-decoration: underline;
+}
+
+.footerdiv{
+  width:80%;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+/*FOOTER SECTION*/
+
+
+
